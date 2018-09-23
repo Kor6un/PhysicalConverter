@@ -1,0 +1,11 @@
+10 s
+5 kmh
+100 ms
+35 mph
+18 kn
+75 ms
+50 ms
+1 kmh
+30 mph
+20 kn
+10 kn

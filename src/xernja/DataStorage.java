@@ -1,3 +1,9 @@
+package xernja;
+
+import domain.Distance;
+import domain.Speed;
+import domain.Time;
+
 import java.util.List;
 
 public class DataStorage {

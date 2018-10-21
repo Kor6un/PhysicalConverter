@@ -1,3 +1,9 @@
+package services;
+
+import domain.Essence;
+import domain.Speed;
+import domain.Time;
+
 public class Converter {
     private Essence essence;
 

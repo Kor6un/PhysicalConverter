@@ -1,3 +1,12 @@
+package utils;
+
+import domain.Distance;
+import domain.Speed;
+import services.Calculator;
+import services.Converter;
+import utils.comparators.Comparator;
+import utils.file_managers.DataReader;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -5,11 +14,11 @@ import java.util.List;
 public class Viewer {
 
     private DataReader dataReader;
-    private CalculatDistance calculatDistance;
+    private Calculator calculatDistance;
 
-   Viewer (DataReader dataReader) {
+   public Viewer(DataReader dataReader) {
         this.dataReader = dataReader;
-        calculatDistance = new CalculatDistance(dataReader.getListOfSpeeds(), dataReader.getTime());
+        calculatDistance = new Calculator(dataReader.getListOfSpeeds(), dataReader.getTime());
 
     }
 

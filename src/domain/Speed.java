@@ -1,3 +1,5 @@
+package domain;
+
 public class Speed extends Essence implements Comparable <Speed> {
     private String unit;
     public Speed (double value, String unit) {

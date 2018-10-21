@@ -1,5 +1,9 @@
+package utils;
+
+import domain.Distance;
+import domain.Speed;
+
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Sorter {
@@ -24,11 +28,11 @@ public class Sorter {
         return tempList;
     }
 
-   /* public List<Speed> getSortedSpeedDescending () {
+   /* public List<domain.Speed> getSortedSpeedDescending () {
 
-        List<Speed> tempList = new ArrayList<>();
-        for (Speed s: speedList) {
-            tempList.add(Converter.convertToMS(s));
+        List<domain.Speed> tempList = new ArrayList<>();
+        for (domain.Speed s: speedList) {
+            tempList.add(services.Converter.convertToMS(s));
         }
 
 

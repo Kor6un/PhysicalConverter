@@ -1,13 +1,19 @@
+package services;
+
+import domain.Distance;
+import domain.Speed;
+import domain.Time;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class CalculatDistance {
+public class Calculator {
     private List<Speed> speedList;
     private Time time;
     private List<Distance> distanceList;
 
-    CalculatDistance (List<Speed> speed, Time time) {
+    public Calculator(List<Speed> speed, Time time) {
         this.speedList = speed;
         this.time = time;
     }

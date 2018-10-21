@@ -1,3 +1,7 @@
+package domain;
+
+import domain.Essence;
+
 public class Time extends Essence {
 
     private String unit;

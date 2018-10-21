@@ -1,3 +1,8 @@
+package utils.comparators;
+
+import domain.Speed;
+import utils.identifires.SpeedUnit;
+
 public class Comparator implements java.util.Comparator<Speed> {
     @Override
     public int compare(Speed o1, Speed o2) {

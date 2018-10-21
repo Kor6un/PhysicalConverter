@@ -5,8 +5,10 @@ import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 
 public class Distance extends Essence implements Comparable<Distance>  {
-    public Distance(Double value) {
+    private String unit;
+    public Distance(Double value, String unit) {
         super(value);
+        this.unit = unit;
     }
 
     @Override

@@ -3,6 +3,7 @@ package services;
 import domain.Distance;
 import domain.Speed;
 import domain.Time;
+import utils.constants.Constants;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +23,7 @@ public class Calculator {
         distanceList = new ArrayList<>();
         for (Speed speed : this.speedList) {
             distanceList.add(new Distance (Converter.convertToMS(speed).getValue()
-                    * Converter.converToS(time).getValue()));
+                    * Converter.converToS(time).getValue(), Constants.KM));
         }
         return distanceList;
     }

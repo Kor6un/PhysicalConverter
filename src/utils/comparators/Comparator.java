@@ -1,6 +1,6 @@
 package utils.comparators;
 
-import domain.Speed;
+import domain.service_models.Speed;
 import utils.identifires.SpeedUnit;
 
 public class Comparator implements java.util.Comparator<Speed> {

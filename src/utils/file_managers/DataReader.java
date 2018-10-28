@@ -1,7 +1,7 @@
 package utils.file_managers;
 
-import domain.Speed;
-import domain.Time;
+import domain.service_models.Speed;
+import domain.service_models.Time;
 import utils.identifires.TimeUnit;
 
 import java.io.*;

@@ -1,4 +1,4 @@
-package domain;
+package domain.service_models;
 
 public abstract class Essence {
     private Double value;

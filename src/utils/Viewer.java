@@ -1,7 +1,7 @@
 package utils;
 
-import domain.Distance;
-import domain.Speed;
+import domain.service_models.Distance;
+import domain.service_models.Speed;
 import services.Calculator;
 import services.Converter;
 import utils.comparators.Comparator;

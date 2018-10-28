@@ -1,15 +1,13 @@
-package domain.factory;
+package domain.service_models.factory;
 
-import domain.Distance;
-import domain.Essence;
-import domain.Speed;
-import domain.Time;
+import domain.service_models.Distance;
+import domain.service_models.Essence;
+import domain.service_models.Speed;
+import domain.service_models.Time;
 import utils.exception.Exception;
 import utils.identifires.DistanceUnit;
 import utils.identifires.SpeedUnit;
 import utils.identifires.TimeUnit;
-
-import static utils.constants.Constants.SPACE;
 
 public class EssenceFactory {
     public static Essence getEssence(String s) {

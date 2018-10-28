@@ -1,7 +1,7 @@
 package xernja;
 
-import domain.Essence;
-import domain.Speed;
+import domain.service_models.Essence;
+import domain.service_models.Speed;
 import services.Converter;
 
 import java.util.List;

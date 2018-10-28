@@ -1,4 +1,4 @@
-package domain;
+package domain.service_models;
 
 public class Speed extends Essence implements Comparable <Speed> {
     private String unit;

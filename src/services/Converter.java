@@ -1,9 +1,9 @@
 package services;
 
-import domain.Essence;
-import domain.Speed;
-import domain.Time;
-import domain.factory.EssenceFactory;
+import domain.service_models.Essence;
+import domain.service_models.Speed;
+import domain.service_models.Time;
+import domain.service_models.factory.EssenceFactory;
 import utils.exception.Exception;
 import utils.identifires.SpeedUnit;
 

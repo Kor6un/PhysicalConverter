@@ -1,4 +1,4 @@
-package domain;
+package domain.service_models;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

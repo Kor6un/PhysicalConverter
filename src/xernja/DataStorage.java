@@ -1,8 +1,8 @@
 package xernja;
 
-import domain.Distance;
-import domain.Speed;
-import domain.Time;
+import domain.service_models.Distance;
+import domain.service_models.Speed;
+import domain.service_models.Time;
 
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package domain;
-
-import domain.Essence;
+package domain.service_models;
 
 public class Time extends Essence {
 
